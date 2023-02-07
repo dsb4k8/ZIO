@@ -1,9 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ScalaSbtSettings">
+    <option name="customVMEnabled" value="true" />
+    <option name="customVMPath" value="C:\Users\SoftwareD\.jdks\corretto-1.8.0_342\jre" />
     <option name="linkedExternalProjectsSettings">
       <SbtProjectSettings>
+        <option name="allowSbtVersionOverride" value="true" />
         <option name="converterVersion" value="1" />
+        <option name="enableDebugSbtShell" value="true" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
         <option name="modules">
           <set>
@@ -11,7 +15,9 @@
             <option value="$PROJECT_DIR$/project" />
           </set>
         </option>
+        <option name="resolveSbtClassifiers" value="true" />
         <option name="sbtVersion" value="1.8.2" />
+        <option name="useSbtShellForImport" value="true" />
       </SbtProjectSettings>
     </option>
   </component>
